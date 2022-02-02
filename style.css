@@ -621,7 +621,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  font-weight: bold;
+  font-weight: bolder;
   border: 7px solid rgb(241, 24, 24);
   z-index: -1;
 }
