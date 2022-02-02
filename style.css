@@ -581,8 +581,7 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 0px 180px 0px;
-  color:rgb(241, 24, 24);
-  
+  color: rgb(241, 24, 24);
 }
 #about .col-left {
   width: 250px;
@@ -621,7 +620,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid rgb(192, 149, 149);
+  border: 7px solid rgb(241, 24, 24);
   z-index: -1;
 }
 /* End About Section */
