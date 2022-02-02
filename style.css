@@ -48,7 +48,7 @@ p {
   
 }
 .section-title span {
-  color: crimson;
+  color: rgb(156, 70, 30);
 }
 
 .cta {
@@ -57,7 +57,7 @@ p {
   color: white;
   border-radius: 300px;
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid rgb(156, 70, 30);
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -67,7 +67,7 @@ p {
 }
 .cta:hover {
   color: white;
-  background-color: crimson;
+  background-color: rgb(156, 70, 30);
 }
 .brand h1 {
   font-size: 3rem;
@@ -75,7 +75,7 @@ p {
   color: white;
 }
 .brand h1 span {
-  color: crimson;
+  color: rgb(156, 70, 30);
 }
 
 /* Header section */
@@ -210,7 +210,7 @@ p {
 
 /* profile Section */
 #profile {
-  background-image: url(./img/pic3.jpg);
+  background-image: url(./img/background1.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -258,7 +258,7 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: crimson;
+  background-color: rgb(156, 70, 30);
   animation: text_reveal_box 1s ease;
   animation-delay: .5s;
 }
@@ -281,7 +281,7 @@ p {
   max-width: 1500px;
   margin: 0 auto;
   padding: 100px 0;
-  background: linear-gradient(-70deg, #083019, #181f64,black);
+  background: linear-gradient(-70deg, #166638, #181f64,black);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
   
@@ -561,17 +561,19 @@ p {
 /* About Section */
 #about
 {
-  background: url(./img/about.png) no-repeat center center;
+  background: url(./img/background2.jpg) no-repeat center center;
   background-size: cover;
+  padding: 10px;
 }
 #about .about_box{
-  color: rgb(50, 170, 150);
-
+  color: white;
+  text-align: left;
+  
   
 }
 #about .section-title
 {
-  color: rgb(50, 170, 150);
+  color: white;
 }
 #about .about {
   flex-direction: column-reverse;
@@ -579,7 +581,7 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 0px 180px 0px;
-  color:crimson;
+  color:rgb(176, 228, 170);
   
 }
 #about .col-left {
@@ -619,7 +621,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid crimson;
+  border: 7px solid rgb(156, 70, 30);
   z-index: -1;
 }
 /* End About Section */
@@ -742,7 +744,7 @@ p {
 }
 @keyframes text_reveal_name {
   100% {
-      color: crimson;
+      color: rgb(156, 70, 30);
       font-weight: 500;
   }
 }
@@ -807,7 +809,7 @@ p {
       top: 34px;
       height: 98%;
       width: 98%;
-      border: 10px solid crimson;
+      border: 10px solid rgb(156, 70, 30);
   }
   #about .col-right {
       text-align: left;
@@ -884,7 +886,7 @@ p {
   }
   #about .about_box
   {
-      padding-left: 340px;
+      padding-left: 0px;
   }
 }
 /* End  Media Query For Desktop */
