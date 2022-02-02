@@ -629,7 +629,7 @@ p {
 /* contact Section */
 #contact
 {
-  background: linear-gradient(-70deg, #083019, #181f64,black);
+  background: linear-gradient(-70deg, #166638, #181f64,black);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
 }
