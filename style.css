@@ -48,7 +48,7 @@ p {
   
 }
 .section-title span {
-  color: rgb(156, 70, 30);
+  color: rgb(241, 24, 24);
 }
 
 .cta {
@@ -57,7 +57,7 @@ p {
   color: white;
   border-radius: 300px;
   background-color: transparent;
-  border: 2px solid rgb(156, 70, 30);
+  border: 2px solid rgb(241, 24, 24);
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -67,7 +67,7 @@ p {
 }
 .cta:hover {
   color: white;
-  background-color: rgb(156, 70, 30);
+  background-color: rgb(241, 24, 24);
 }
 .brand h1 {
   font-size: 3rem;
@@ -75,7 +75,7 @@ p {
   color: white;
 }
 .brand h1 span {
-  color: rgb(156, 70, 30);
+  color: rgb(241, 24, 24);
 }
 
 /* Header section */
@@ -258,7 +258,7 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: rgb(156, 70, 30);
+  background-color: rgb(241, 24, 24);
   animation: text_reveal_box 1s ease;
   animation-delay: .5s;
 }
@@ -621,7 +621,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid rgb(156, 70, 30);
+  border: 7px solid rgb(241, 24, 24);
   z-index: -1;
 }
 /* End About Section */
@@ -744,7 +744,7 @@ p {
 }
 @keyframes text_reveal_name {
   100% {
-      color: rgb(156, 70, 30);
+      color: rgb(241, 24, 24);
       font-weight: 500;
   }
 }
@@ -809,7 +809,7 @@ p {
       top: 34px;
       height: 98%;
       width: 98%;
-      border: 10px solid rgb(156, 70, 30);
+      border: 10px solid rgb(241, 24, 24);
   }
   #about .col-right {
       text-align: left;
