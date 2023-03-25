@@ -210,9 +210,9 @@ p {
 
 /* profile Section */
 #profile {
-  background-image: url(./img/background1.jpg);
+  background-image: url('./img/background_img.jpg');
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   position: relative;
   z-index: 1;
 }
@@ -287,8 +287,10 @@ p {
   
 }
 #education .service-top {
-  max-width: 500px;
+  max-width: 790px;
   margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #education .service-bottom {
   display: flex;
@@ -1047,4 +1049,75 @@ p {
     .footer .headerlink a{
         margin: 3px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+/* internship */
+
+#education .internship_section{
+    background: linear-gradient(-70deg, #57c9e9, #2ece1c, rgb(16, 115, 151)) !important;
+    background-size: 400% 400% !important;
+    animation: gradient 5s ease infinite !important;
+}
+.internship .card {
+  /* border: 1px solid #ddd; */
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  margin-bottom: 20px;
+  width: 400px;
+  min-height: 400px;
+  background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.internship .card-header {
+  background-color: #636363;
+  /* border-bottom: 1px solid #ddd; */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.internship .card-header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.internship .card-header p {
+  margin: 5px 0 0 0;
+}
+
+.internship .card-body {
+  padding: 10px;
+}
+
+.internship .card-body p {
+  font-weight: bold;
+}
+
+.internship .card-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.internship .card-body li {
+  margin: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  list-style: disc;
+}
+
+.internship .card-body li:last-child {
+  margin-bottom: 0;
 }
