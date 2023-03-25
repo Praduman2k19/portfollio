@@ -376,7 +376,7 @@ p {
   }
 
 
- .itom{
+ .item{
      background: white;
      display: flex;
      flex-wrap: wrap;
@@ -390,7 +390,7 @@ p {
      text-align:center;
      box-shadow: 2px -2px  10px rgba(0, 0, 0, 0.1), -2px 2px 10px rgba(0, 0, 0, 0.1);
  }
- .itom #project_img{
+ .item #project_img{
    width:auto;
    height:250px;
    display: flex;
@@ -398,11 +398,11 @@ p {
    justify-content: center;
    position: relative;
  }
- .itom img{
-     height: 300px;
-     width: 250px;
+ .item img{
+     /* height: 300px;
+     width: 250px; */
  }
- .itom .button{
+ .item .button{
    background: linear-gradient(to right ,rgb(30, 103, 211),rgba(8, 238, 188, 0.527),rgb(21, 216, 14));
    border-radius: 15px;
    border: black solid 2px;
@@ -412,31 +412,31 @@ p {
  box-shadow: rgb(90, 87, 87) 3px 3px 5px;
  margin-top: 20px;
  }
- .itom a{
+ .item a{
    text-decoration-line:none;
    color: black;
  }
- .itom .button:hover{
+ .item .button:hover{
    opacity: .8;
  }
- .itom .button:active{
+ .item .button:active{
    box-shadow: rgb(73, 75, 75) 4px 4px 5px;
    background: linear-gradient(to right ,rgb(71, 37, 224),rgba(3, 206, 233, 0.527),rgb(53, 253, 3));
  }  
  @media screen and (max-width: 450px){
-   .itom.heading{
+   .item.heading{
        padding: 50px 0px 10px 0px;
        font-size:30pt;
    }
-   .itom #project_img{
+   .item #project_img{
     width:auto;
     height:250px;
   }
-  .itom img{
+  .item img{
     width:250px;
     height:250px;
   }
-   .itom .project_name{
+   .item .project_name{
        font-size: 25pt;
    }
  }
