@@ -210,8 +210,8 @@ p {
 
 /* profile Section */
 #profile {
-  /* background-image: url('./img/background_img.jpg'); */
-  background-image: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=1380&t=st=1689483439~exp=1689484039~hmac=c9553e1e3dbfc25c4880dea3c6c9b3bf3120f82ff03b64ce6ccb2628ccaf87c6');
+  background-image: url('./img/background_img.jpg');
+  /* background-image: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=1380&t=st=1689483439~exp=1689484039~hmac=c9553e1e3dbfc25c4880dea3c6c9b3bf3120f82ff03b64ce6ccb2628ccaf87c6'); */
   /* background-image: url('https://img.freepik.com/free-psd/decorative-objects-old-books-vases-black-wall-japanese-style_176382-56.jpg?w=1380&t=st=1689483402~exp=1689484002~hmac=234ab103f3e7ea3ebd74ebf9ffa5321c08891732fd96a407308410eabdf5e849'); */
   /* background-image: url('https://img.freepik.com/free-photo/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg?w=1060&t=st=1689483411~exp=1689484011~hmac=d1601022e6f0ce161e94710c9d6cc02b2e6dddf7975d1af0c7e27b90776ee7b9'); */
   background-size: cover;
