@@ -358,7 +358,13 @@ p {
 /* End education Section */
 
 /* Projects section */
-
+#projects{
+  background-color: #6e94b04b;
+  background-image: url('./img/bg_project.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
 #projects .projects {
   flex-direction: column;
   margin: 0 auto;
